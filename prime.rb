@@ -1,5 +1,5 @@
 def prime?(x)
-  a = (2..x).to_a
+  a = (2..x-1).to_a
 
   if x<=0 || x==1
     return false
