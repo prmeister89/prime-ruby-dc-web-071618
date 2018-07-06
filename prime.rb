@@ -4,7 +4,7 @@ def prime?(x)
   prime_test = x/x == 1 && x/1 == x
   
   
-  if 
+  
   a.each do |element|
     prime_array << element
   
