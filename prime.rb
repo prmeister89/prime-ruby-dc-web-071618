@@ -1,9 +1,9 @@
 def prime?(x)
-  a = []
+  a = (2..x).to_a
   prime_array = []
   prime_test = x/x == 1 && x/1 == x
   
-  r = (2..x).to_a
+  
   if 
   a.each do |element|
     prime_array << element
