@@ -3,7 +3,7 @@ def prime?(x)
   
   prime_test = x/x == 1 && x/1 == x
   
-  if prime_test == x && 1
+  if prime_test.include?()
     a.push(x)
     return true
   elsif x<0
