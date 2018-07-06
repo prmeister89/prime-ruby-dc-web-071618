@@ -1,7 +1,9 @@
 def prime?(x)
   a = []
   
-  if x/x == 1 && x/1 == x
+  prime_test = x/x == 1 && x/1 == x
+  
+  if prime_test == x && 1
     a.push(x)
     return true
   elsif x<0
