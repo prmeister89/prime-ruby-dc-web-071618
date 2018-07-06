@@ -6,7 +6,7 @@ def prime?(x)
   else
     a.all? do |element|
       x%element != 0
-    return true
+    end
   end
 end
     
