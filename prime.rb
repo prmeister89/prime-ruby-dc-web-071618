@@ -5,4 +5,4 @@ def prime?(x)
     x%element == 0 &&
     
   
-  a.all?{
+  a.all? { |x%element == 0|
