@@ -3,7 +3,7 @@ def prime?(x)
   prime_array = []
   prime_test = x/x == 1 && x/1 == x
   
-  (2..x).to_a
+  r = (2..x).to_a
   if 
   a.each do |element|
     prime_array << element
