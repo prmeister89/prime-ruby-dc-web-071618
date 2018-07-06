@@ -10,9 +10,9 @@ def prime?(x)
   
   
   if prime_test
-    a.push(x)
+    prime_array.push(x)
     return true
-  elsif x<0
+  elsif x<=0
     return false
   else
     return false
